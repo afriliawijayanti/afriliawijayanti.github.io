@@ -100,3 +100,9 @@ main .sidebar
 .nav li a:hover {
     background-color: #111;
 }
+
+.teks{
+    text-align: justify;
+    float: left;
+    text size: 12px;
+}

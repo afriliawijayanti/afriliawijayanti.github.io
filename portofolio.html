@@ -1,134 +1,44 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="portofolio.css">
+</head>
 <body>
-        <a href="">Biodata</a>
-        <a href="portofolio.html">Portofolio</a>
-        <h1>PORTOFOLIO</h1>
-    <table border="1" cellsepacing="0" cellsepacing="5" width="800">
-        <tr align="center" bgcolor="#1feSdS">
-            <td width="200">Data Diri</td>
-            <td width="400">Keterangan</td>
-            <td width="200">Foto</td>
-        </tr>
-        <tr bgcolor="#F0F8FF" >
-            <td>Nama</td>
-            <td>Afrilia Wijayanti</td>
-            <td rowspan="11" align="center"><img src="afi.jpg" width="200"></td>
-        </tr>
-        <tr bgcolor="#F0F8FF">
-            <td>Tempat/Tanggal Lahir</td>
-            <td>Madiun, 20 April 2001</td>
-        </tr>
-        <tr bgcolor="#F0F8FF">
-            <td>Alamat</td>
-            <td>Kabupaten Ngawi</td>
-        </tr>
-        <tr bgcolor="#F0F8FF">
-            <td>Jenis Kelamin</td>
-            <td>Perempuan</td>
-        </tr>
-        <tr bgcolor="#F0F8FF">
-            <td>Agama</td>
-            <td>Islam</td>
-        </tr>
-        <tr bgcolor="#F0F8FF">
-            <td>Universitas</td>
-            <td>Universitas Jember</td>
-        </tr>
-        <tr bgcolor="#F0F8FF" >
-            <td>Jurusan</td>
-            <td>Ekonomi Pembangunan</td>
-        </tr>
-        <tr bgcolor="#F0F8FF">
-            <td>Semester</td>
-            <td>5 (Lima)</td>
-        </tr>
-        <tr bgcolor="#F0F8FF">
-            <td>Kelompok</td>
-            <td>Banyuwangi-Jember 1</td>
-        </tr>
-        <tr bgcolor="#F0F8FF">
-            <td>Pendidikan</td>
-            <td>
-                <ul>
-                    <li>2013 SDN 1 Kwadungan </li>
-                    <li>2016 SMPN 1 Kwadungan</li>
-                    <li>2019 SMAN 1 Nglames</li>
-                    <li>2020-Sekarang Universitas Jember </li>
-                </ul>
-            </td>
-        </tr>
-        <tr bgcolor="#F0F8FF" >
-            <td>Keahlian</td>
-            <td>
-                <ul>
-                    <li>Microsoft Office Dasar</li>
-                    <li>Canva</li>
-                    <li>Problem Solving</li>
-                    <li>Public Speaking</li>
-                    <li>Teamwork</li>
-                    <li>Leadership</li>
-                </ul>
-            </td>
-        </tr>
-    </table>
-    <!--Judul-->
-    <h1>Pengalaman Organisasi</h1>
-    <table>
-
-    <form>
-        <p>Nama :</p>
-        <input type="text" name="nama" placeholder="enter your name">
-        <p>Pengalaman Organisasi :</p>
-        <input type="radio" name="Pengalaman organisasi" id="Koperasi Mahasiswa">
-        <label for="Koperasi Mahasiswa">Koperasi Mahasiswa</label>
-        <input type="radio" name="Pengalaman organisasi" id="KSPM">
-        <label for="KSPM">KSPM</label>
-        <input type="radio" name="Pengalaman Organisasi" id="KSEI">
-        <label for="KSEI">KSEI</label>
-        <input type="radio" name="Pengalaman organisasi" id="KSKM">
-        <label for="KSKM">KSKM</label>
-        <p>Tahun Masuk</p>
-        <input type="radio" name="Tahun masuk" id="2020">
-        <label for="2020">2020</label>
-        <input type="radio" name="Tahun masuk" id="2021">
-        <label for="2021">2021</label>
-        <input type="radio" name="Tahun masuk" id="2022">
-        <label for="2022">2022</label>
-        <div></div>
-        <input type="submit" value="Kirim">
-        <input type="reset" value="Reset">
-        <div></div>
-    </form>
-
-    <br>
-     <!--
-        no,nama organisasi, tahun
-     -->
-    <table border="2">
-        <tr align="center" bgcolor="#1feSdS">
-            <th>No</th>
-            <th>Nama Organisasi</th>
-            <th>Tahun Masuk</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Koperasi Mahasiswa</td>
-            <td>2020</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>KSPM</td>
-            <td>2020</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>KSEI</td>
-            <td>2021</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>KSKM</td>
-            <td>2021</td>
-        </tr>
-    </table>
+    <!--Menu-->
+    <a href="index.html">Biodata</a>
+    <a href="portofolio.html">Portofolio</a>
+    <div class="hero">
+        <nav>
+            <img src="logo_unej.png" class="logo">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">PORTOFOLIO</a></li>
+                <li><a href="#">KONTAK SAYA</a></li>
+            </ul>
+        </nav>
+        <div class="detel">
+            <h1>AFRILIA<span>WIJAYANTI</span></h1>
+            <p>This is my official portofolio</p>
+            <h2>ABOUT ME</h2>
+                <p align="justify">Nama saya Afrilia Wijayanti, biasa dipangil Afril, berusia 21 tahun, 
+                merupakan salah satu mahasiwa di Universitas Jember Program studi Ekonomi Pembangunan.
+                Saya merupakan orang yang mau bekrja keras,bertaggung jawab,menyukai hal baru, 
+                mampu berkomunikasi dengan baik dan bekerja sama dengan Tim.Saat ini saya mengikuti 
+                kegiatan Studi Independen di SEAL. ini menambah pengetahuan dan pengalaman 
+                dengan mengikuti kegiatan tersebut saya bisa mengetahui bagaimana transformasi 
+                digital di sektor Pemerintah maupun disektor publik.
+                </p>
+            <a href="index.html">DOWNLOAD CV</a>  
+            </div>
+        </div>
+            <div class="images">
+                <img src="shape.png" class="shape">
+                <img src="lia.png" class="gril">
+            </div>
+    </div>
+</body>
 </html>
