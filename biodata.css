@@ -11,13 +11,13 @@ h1
 
 header
 {
-    background-color: burlywood;
-    color: white;
+    background-color: #D2B48C;
+    color: #F5F5DC;
 }
 
 main
 {
-   background-color: white; 
+   background-color: #F5F5DC; 
 }
 
 .container
@@ -29,7 +29,7 @@ main
 .sidebar
 {
     width: 400px;
-    background-color: burlywood;
+    background-color: #D2B48C;
     padding: 50px 0;
     float: left;
 }
