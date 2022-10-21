@@ -1,6 +1,6 @@
 .image.hero {
     width: 250px;
-    height: 250px;
+    height: 150px;
     object-fit: cover;
 }
 
@@ -13,7 +13,7 @@
 }
 
 #hero {
-    height: 95vh;
+    height: 90vh;
 }
 
 .card-img-top {
