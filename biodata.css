@@ -1,108 +1,36 @@
-body
-{
-    line-height: 1.5;
-    margin: 0;
+.image.hero {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
 }
 
-h1
-{
-    margin: 0;
+.title {
+   font-family:'Raleway', sans-serif;
 }
 
-header
-{
-    background-color: #D2B48C;
-    color: #F5F5DC;
+.subtitle {
+    letter-spacing: 10px;
 }
 
-main
-{
-   background-color: #F5F5DC; 
+#hero {
+    height: 95vh;
 }
 
-.container
-{
-    width: 800px;
-    margin: 0 auto;
-}
-
-.sidebar
-{
-    width: 400px;
-    background-color: #D2B48C;
-    padding: 50px 0;
-    float: left;
-}
-
-.sidebar img
-{
-    width: 100%;
-}
-
-.content
-{
-    float: left;
-    width: 400px;
-    padding: 50px 50px;
-    box-sizing: border-box;
-}
-
-.clearfix
-{
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.float-50
-{
-    float: left;
-    width: 50%;
-}
-
-.mb-1
-{
-    margin-bottom: 1.5rem;
-}
-
-.mt-2
-{
-    margin-top: 1.5rem;
-}
-
-main .sidebar
-{
-    background-color: gainsboro;
-    padding: 50px 50px;
-    box-sizing: border-box;
-}
-
-.nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-.nav li {
-    float: left;
-}
-
-.nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.nav li a:hover {
-    background-color: #111;
-}
-
-.teks{
+.text-about  {
+    text-indent: 80px;
     text-align: justify;
-    float: left;
-    text size: 12px;
 }
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    text-align: justify;
+}
+
+.card-text {
+    text-align: justify;
+}
+
